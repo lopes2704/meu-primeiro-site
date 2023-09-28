@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site de formularios</title>
+
+
+
+    <!--esse é a referencia para adicionar pagina de estilo no site-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!--vou separar tudo para me localizar-->
+
+<body>
+
+    <header>
+        <h1 class="title">Formularios de todos os tipos com css</h1>
+
+    </header>
+
+
+
+    <main>
+        <form>
+            <h2>Formularios padroes</h2>
+            <label id="label1" for="form1">Primeiro tipo de formulario:</label>
+            <input id="form1" type="text" placeholder="digite aqui teste">
+            <br>
+
+            <label id="label1" for="form2">data aniversario aqui:</label>
+            <input id="form2" type="date">
+            <br>
+
+
+            <label id="label1" for="email1">email:</label>
+            <input id="email1" type="email" placeholder="digite seu melhor email">
+            <br>
+            <label id="label1">senha:</label>
+            <input type="password" placeholder="senha">
+
+
+            <br><br>
+            <hr>
+            <h2>Clique aqui</h2>
+
+
+            <input id="cl1" type="radio" name="clique" value="clique1"><label for="cl1">clique1</label><br>
+            <input id="cl2" type="radio" name="clique" value="clique2"><label for="cl2">clique2</label><br>
+            <input id="cl3" type="radio" name="clique" value="clique3"><label for="cl3">clique3</label><br>
+
+            <br><br>
+            <hr>
+
+            <h2>Esse form pode marcar quantas quiser</h2>
+
+
+            <label for="formt1">marca 1</label>
+            <input id="formt1" type="checkbox" name="forms" id="formt1"><br>
+            <label for="formt2">marca 2</label>
+            <input id="formt2" type="checkbox" name="forms" id="formt2"><br>
+            <label for="formt3">marca 3</label>
+            <input id="formt3" type="checkbox" name="forms" id="formt3"><br>
+            <br> <br>
+            <hr>
+
+
+            <h2>Form do tipo cascata</h2>
+
+            <!--esse formulario comeca com select e depois option-->
+            <select class="escolha" name="teste">
+                <option selected disabled value="">selecione</option>
+                <option value="escolha1">escolha eu</option>
+                <option value="escolha2">escolha eu 2</option>
+                <option value="escolha>3">escolha eu 3</option>
+
+                <!--esse e o padrao para cascata select-->
+
+                <br><br><br><br>
+
+
+
+
+
+
+            </select>
+
+            <br><br><br>
+            <hr>
+
+            <div>
+                <h1>vamos fazer tabelas</h1>
+
+
+                <table width="100%" border="1" style="text-align: center;"><!--tag de abertura de tabelas-->
+
+                    <tr> <!-- tr é para voce criar as colunas(linhas)-->
+
+                        <!--th é para dar nome aos titulos das coluna-->
+                        <th>instrumento</th>
+                        <th>cor</th>
+                        <th>modelo</th>
+                    </tr>
+
+
+                    <tr><!--td é para colocar a resposta e info-->
+                        <td>sax</td>
+                        <td>yellow</td>
+                        <td>super action selmer</td>
+                    </tr>
+                </table>
+
+                <!--vamos tentar outra tabela maior-->
+
+                <br>
+                <table border="1" width="100%" style="text-align: center;">
+                    <tr>
+                        <th>
+                            instrumento
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>sax</td><br>
+                        <td>teclado</td><br>
+                        <td>violao</td><br>
+                        <td>baixo</td><br>
+
+
+                    </tr>
+
+
+
+                </table>
+            </div>
+            <hr>
+            <br>
+
+            <!--usar o css float. exemplo
+            para mover a imagem dentro do bloco-->
+            <h2>Propriedade float em img</h2>
+            <div class="container">
+
+
+
+                <img class="foto" width="250px" src="img/foto computado.jpeg">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis placeat, at perferendis
+                    modi eveniet
+                    reprehenderit in alias recusandae illo enim nam maxime eos ea, harum quam, earum amet eligendi
+                    quisquam.</p>
+
+            </div>
+
+
+
+            <br>
+            <hr>
+            <!--criar um menu usando uma 
+            lista nao ordenada-->
+
+            <h2>Propriedade float em css menu</h2>
+
+
+
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li id="login"><a href="#">meu botao</a></li>
+            </ul>
+            <hr>
+        </form>
+    </main>
+
+
+
+
+
+    <!--site para testar. picsum.photos-->
+    <h2>testando opacidade</h2>
+    <img class="img1" src="https://picsum.photos/id/1/200/300">
+    <img class="img2" src="https://picsum.photos/id/1/200/300">
+    <img class="img3" src="https://picsum.photos/id/1/200/300">
+    <br> <br>
+    <a class="botao1" href="#">Botao</a>
+
+    <br><br>
+    <hr>
+    <h2>efeito dropdown</h2>
+
+
+
+
+    <ul class="novalista">
+        <li><a href="#">Link1</a> </li>
+        <li><a href="#">Link2</a> </li>
+        <li><a href="#">Link3</a> </li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+.title {
+    color: rgb(42, 105, 84);
+    text-align: center;
+    border: 1px solid black;
+    display: block;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    padding: none;
+
+}
+
+.title:hover {
+    display: none;
+}
+
+#label1 {
+    color: rgb(96, 51, 138);
+    font-size: large;
+    font-family: Georgia;
+    margin-left: 20px;
+}
+
+#form1 {
+    text-align: center;
+    margin-left: 0px;
+    background: pink;
+
+}
+
+#form2 {
+    background: rgb(93, 131, 93);
+    margin-left: 51px;
+}
+
+#email1 {
+    background-color: rgb(184, 255, 41);
+
+}
+
+.escolha {
+    background-color: bisque;
+    color: rgb(12, 2, 41);
+    margin-left: 20px;
+}
+
+.container {
+
+    border: solid 1px black;
+    background: wheat;
+    overflow: auto;
+
+
+}
+
+.container img {
+    float: right;
+    margin-right: 20px;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+
+ul {
+    background: black;
+
+    padding: 20px;
+
+
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+li a:hover {
+    background: wheat;
+    color: black
+}
+
+#login {
+    float: right;
+}
+
+
+.img1 {
+    opacity: 0.3;
+}
+
+.img2 {
+    opacity: 0.75;
+}
+
+.img3 {
+    opacity: 0.9;
+}
+
+.img1:hover {
+    opacity: 0.9;
+}
+
+.img2:hover {
+    opacity: 0.5;
+}
+
+.img3:hover {
+
+    opacity: 0.2;
+}
+
+.botao1 {
+    border: solid 1px black;
+    padding: 20px;
+    background-color: green;
+    text-decoration: none;
+
+}
+
+.botao1:hover {
+    opacity: 0.4;
+}
+
+.foto:hover {
+    opacity: 0.5;
+}
+
+.novalista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
